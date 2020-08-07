@@ -1,0 +1,246 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 30px;
+    color: bisque;
+      
+}
+nav ul {
+    float: right;
+       
+}
+nav {
+    width: 100% ;
+   height: 60px;
+    background-color:darkslategray;
+    position: fixed;
+}
+nav ul li a {
+    text-decoration:none;
+    color: aliceblue;
+}
+section {
+    background-color: azure;
+}
+.home {
+    background-image: url(https://www.99images.com/download-image/131525/1200x900);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:match-parent;
+     font-size: 80px;
+    color: silver;
+    
+    display: table;
+    height: 100vh;
+     width: 100%;
+    
+}
+.inner {
+    display: table-cell;
+    vertical-align:middle;
+}
+.home.inner img {
+     border-radius: 80px;
+    width: 250px;
+    height: auto;
+    
+}
+.home .inner h1{
+     font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+.about{
+    background-image:url(https://us.123rf.com/450wm/kotexvector/kotexvector1809/kotexvector180900022/109508692-stock-vector-abstract-technology-line-triangle-and-points-businessman-low-poly-hold-the-phone-in-hand-polygonal-f.jpg?ver=6);
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+     background-size:cover;
+    
+}
+
+.about .inner{
+    display: table;
+    vertical-align:middle;
+    width: 80%;
+    float:left;
+    padding-top: 50px;
+}
+.about .inner h1 {
+    font-size: 48px;
+    color: aliceblue
+}
+.about .inner p {
+    font-size: 40px;
+    color: azure;
+    line-height: 60px;
+}
+.education{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrpao9J6NZFrRlYtE4NSWXDAqgru6ne_zPvw&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+.education .inner{
+    padding: 20px;
+}
+.education .inner div{
+    margin-left: 85px;
+    margin-right: 95px;
+    float: left;
+    text-align:center;
+    
+}
+.education h1,.hobbies h1,.skills h1,.contacts{
+    font-size: 50px;
+}
+.education .inner div p,.hobbies .inner div p,.contacts .inner div p{
+    font-size: 30px;  
+}
+.education .inner div img,.hobbies .inner div img{
+    width: 120px;
+    height: auto;
+}
+.education .inner div h2{
+    font-size: 20px;
+}
+
+
+.hobbies,.skills{ 
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTr507zUwT3wYTCkOqKGOTlxKvmT2odKmIDcA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.hobbies .innerh1 {
+    padding-bottom: 1020px;
+    padding-left: 810;
+}
+
+.hobbies .inner div,.skills .inner div{
+    margin-left: 185px;
+    margin-right: 55px;
+    float: left;
+    text-align:center;
+}
+.skills{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://inext.pk/wp-content/uploads/2017/09/Website-Design-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills .inner{
+    background-color: rgba(0,0,0,0.5);
+    padding: 50px;
+    color:lightgoldenrodyellow;
+}
+.skills .inner div ul li{
+    list-style-type: none;
+}
+
+.skills .inner div ul li {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        
+}
+.contacts{
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+.contacts .inner{
+    padding: 50px;
+    text-align: center;
+}
+/*responsive designing*/
+@media (min-width:320px) and (max-width:767px){
+    .home .inner img{
+        padding-top: 100px;
+    }
+    #about{
+        background: blue!important;
+    }
+    .about .inner{
+        width: 90%;
+        padding: 25px;
+    }
+    .about .inner p{
+        font-size: :18px;
+        text-align: justify;
+    }
+    .education .iner div,.hobbies .inner div, .skills .inner div{
+        width: 50%;
+    }
+    .hobbies .inner div{
+        border: 2px ;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .home .inner img{
+        padding-top: 100px;
+    }
+    #about{
+        background: blue!important;
+    }
+    .about .inner{
+        width: 90%;
+        padding: 25px;
+    }
+    .about .inner p{
+        font-size: :18px;
+        text-align: justify;
+    }
+    .education .iner div,.hobbies .inner div, .skills .inner div{
+        width: 50%;
+    }
+    .hobbies .inner div{
+        border: 2px ;
+    }
+}
+@media (min-width:1024px) and (max-width:1439px){
+    .home .inner img{
+        padding-top: 100px;
+    }
+    #about{
+        background: blue!important;
+    }
+    .about .inner{
+        width: 90%;
+        padding: 25px;
+    }
+    .about .inner p{
+        font-size: :18px;
+        text-align: justify;
+    }
+    .education .iner div,.hobbies .inner div, .skills .inner div{
+        width: 50%;
+    }
+    .hobbies .inner div{
+        border: 2px ;
+    }
+}
+
+
+
+
+
+
